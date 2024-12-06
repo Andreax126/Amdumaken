@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avviso di virus</title>
+    <style>
+        body {
+            background-color: red;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 20%;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AVVISO! VIRUS RILEVATO!</h1>
+    <p>Il tuo dispositivo è stato infettato. Se non lo spegni immediatamente, tutti i dati saranno persi!</p>
+    <script>
+        setTimeout(function() {
+            window.close(); // Chiude automaticamente la finestra dopo 3 secondi
+        }, 3000);
+    </script>
+</body>
+</html>
